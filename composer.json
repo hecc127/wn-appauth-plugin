@@ -17,6 +17,6 @@
     "require": {
         "firebase/php-jwt": "^5.0",
         "winter/wn-user-plugin": "^2.2.0",
-        "softworkspy/wn-appconfig-plugin": "^dev-main"
+        "softworkspy/wn-appconfig-plugin": "dev-main"
     }
 }

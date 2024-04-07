@@ -1,0 +1,22 @@
+{
+    "name": "softworkspy/wn-appauth-plugin",
+    "description": "AuthAPI Plugin for Winter CMS",
+    "type": "winter-plugin",
+    "authors": [
+        {
+            "name": "Héctor Cáceres",
+            "email": "hecc127@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:hecc127/wn-appconfig-plugin.git"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "^5.0",
+        "winter/wn-user-plugin": "^2.2.0",
+        "softworkspy/wn-appconfig-plugin": "^dev-main"
+    }
+}

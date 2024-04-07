@@ -1,0 +1,110 @@
+fields:
+    _user_section:
+        label: 'softworkspy.appauth::lang.settings._user_section'
+        comment: 'softworkspy.appauth::lang.settings._user_section_comment'
+        type: section
+        span: full
+    enable_user_login:
+        label: 'softworkspy.appauth::lang.settings.enable_user_login'
+        comment: 'softworkspy.appauth::lang.settings.enable_user_login_comment'
+        type: switch
+        span: auto
+        default: true
+    enable_user_update:
+        label: 'softworkspy.appauth::lang.settings.enable_user_update'
+        comment: 'softworkspy.appauth::lang.settings.enable_user_update_comment'
+        type: switch
+        span: auto
+    enable_user_register:
+        label: 'softworkspy.appauth::lang.settings.enable_user_register'
+        comment: 'softworkspy.appauth::lang.settings.enable_user_register_comment'
+        type: switch
+        span: auto
+    enable_user_password:
+        label: 'softworkspy.appauth::lang.settings.enable_user_password'
+        comment: 'softworkspy.appauth::lang.settings.enable_user_password_comment'
+        type: switch
+        span: auto
+    enable_guest_register:
+        label: 'softworkspy.appauth::lang.settings.enable_guest_register'
+        comment: 'softworkspy.appauth::lang.settings.enable_guest_register_comment'
+        type: switch
+        span: auto
+    enable_user_restore_password:
+        label: 'softworkspy.appauth::lang.settings.enable_user_restore_password'
+        comment: 'softworkspy.appauth::lang.settings.enable_user_restore_password_comment'
+        type: switch
+        span: auto
+    enabled_user_deleted:
+        label: 'softworkspy.appauth::lang.settings.enabled_user_deleted'
+        comment: 'softworkspy.appauth::lang.settings.enabled_user_deleted_comment'
+        type: switch
+        span: auto
+    enabled_identity_control:
+        label: 'softworkspy.appauth::lang.settings.enabled_identity_control'
+        comment: 'softworkspy.appauth::lang.settings.enabled_identity_control_comment'
+        type: switch
+        span: auto
+    user_activation_page:
+        label: 'softworkspy.appauth::lang.settings.user_activation_page'
+        commentAbove: 'softworkspy.appauth::lang.settings.user_activation_page_comment'
+        type: dropdown
+        span: full
+        emptyOption: -- no page --
+        trigger:
+            action: show
+            field: enable_user_register
+            condition: checked
+    user_restore_password_page:
+        label: 'softworkspy.appauth::lang.settings.user_restore_password_page'
+        commentAbove: 'softworkspy.appauth::lang.settings.user_restore_password_page_comment'
+        type: dropdown
+        span: full
+        emptyOption: -- no page --
+        trigger:
+            action: show
+            field: enable_user_restore_password
+            condition: checked
+    _admin_section:
+        label: 'softworkspy.appauth::lang.settings._admin_section'
+        comment: 'softworkspy.appauth::lang.settings._admin_section_comment'
+        type: section
+        span: full
+    enable_admin_login:
+        label: 'softworkspy.appauth::lang.settings.enable_admin_login'
+        comment: 'softworkspy.appauth::lang.settings.enable_admin_login_comment'
+        type: switch
+        span: auto
+    enable_admin_update:
+        label: 'softworkspy.appauth::lang.settings.enable_admin_update'
+        comment: 'softworkspy.appauth::lang.settings.enable_admin_update_comment'
+        type: switch
+        span: auto
+    enable_admin_register:
+        label: 'softworkspy.appauth::lang.settings.enable_admin_register'
+        comment: 'softworkspy.appauth::lang.settings.enable_admin_register_comment'
+        type: switch
+        span: auto
+    enable_admin_password:
+        label: 'softworkspy.appauth::lang.settings.enable_admin_password'
+        comment: 'softworkspy.appauth::lang.settings.enable_admin_password_comment'
+        type: switch
+        span: auto
+    _token_section:
+        label: 'Configuración del Token'
+        type: section
+    exp:
+        label: 'softworkspy.appauth::lang.settings.exp'
+        comment: 'softworkspy.appauth::lang.settings.exp_comment'
+        type: number
+    _login_section:
+        label: 'softworkspy.appauth::lang.settings._login_section'
+        type: section
+    login_type:
+        label: 'softworkspy.appauth::lang.settings.user_login_type'
+        commentAbove: 'softworkspy.appauth::lang.settings.user_login_type_comment'
+        type: dropdown
+        span: full
+        options:
+            2 : Restrictive
+            1 : Permissive

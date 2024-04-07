@@ -1,0 +1,14 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table users_deleted'
+    - builder_table_create_users_deleted.php
+1.0.3:
+    - 'Created table softworkspy_appauth_deleted_users'
+    - builder_table_create_softworkspy_appauth_deleted_users.php
+1.0.4:
+    - 'Data migration from users_deleted'
+    - migration_users_deleted.php
+1.0.5:
+    - 'Created table softworkspy_appauth_sessions'
+    - builder_table_create_softworkspy_appauth_sessions.php

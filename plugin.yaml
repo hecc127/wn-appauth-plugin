@@ -1,0 +1,10 @@
+plugin:
+    name: 'softworkspy.appauth::lang.plugin.name'
+    description: 'softworkspy.appauth::lang.plugin.description'
+    author: SoftWorksPy
+    icon: oc-icon-sign-in
+    homepage: ''
+permissions:
+    softworkspy.appauth.access_settings:
+        tab: 'softworkspy.appauth::lang.plugin.name'
+        label: 'softworkspy.appauth::lang.permissions.access_settings'

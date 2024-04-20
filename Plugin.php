@@ -9,7 +9,7 @@ class Plugin extends PluginBase
 {
     public $require = [
         'Winter.User',
-        'SoftWorksPy.RemoteConfig',
+        'SoftWorksPy.AppConfig',
     ];
 
     public function register()
